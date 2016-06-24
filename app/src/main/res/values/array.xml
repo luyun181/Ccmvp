@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ory_tpye">
+        <item>请选择...</item>
+        <item>使用前验证</item>
+        <item>年度定期验证</item>
+        <item>极端高温验证</item>
+        <item>极端低温验证</item>
+        <item>改造后重启用前验证</item>
+        <item>停用时间超过规定时限重新启用前验证</item>
+    </string-array>
+    <string-array name="ory_provic">
+        <item>请选择...</item>
+        <item>山西</item>
+        <item>山东</item>
+        <item>河南</item>
+        <item>河北</item>
+        <item>黑龙将</item>
+        <item>吉林</item>
+    </string-array>
+    <string-array name="title_array">
+        <item>设备校准</item>
+        <item>验证使用无线温湿度验证仪均经法定计量机构校准</item>
+        <item>无线温湿度验证仪均在校准有效期内</item>
+        <item>每个无线温湿度验证仪均能提供校准证书复印件</item>
+        <item>测量范围与允许误差</item>
+        <item>无线温湿度验证仪测量范围适用于冷库验证温度要求</item>
+        <item>温度测量的最大允许误差为±0.5℃。</item>
+        <item>设备电量</item>
+        <item>无线温湿度验证仪电池电量充足</item>
+        <item>信号传输</item>
+        <item>与管理主机无线通讯连接正常</item>
+        <item>数据采集与记录</item>
+        <item>通过管理主机能实时显示无线温湿度验证仪温度数据</item>
+        <item>验证数据采集记录的间隔时间为2分钟</item>
+        <item>验证所使用无线温湿度验证仪数据记录完整、无缺失</item>
+    </string-array>
+    <string-array name="text_arr">
+        <item>姓名</item>
+        <item>所在部门</item>
+        <item>岗位</item>
+        <item>职责</item>
+        <item>3</item>
+        <item>质量负责人</item>
+        <item>质量负责人(组长)</item>
+        <item>负责组织、实施及验证全过程的组织工作和验证报告,纠偏措施的审批</item>
+        <item>1</item>
+        <item>质量管理部</item>
+        <item>经理</item>
+        <item>负责组织验证方案、验证报告、验证纠偏结果的会审会签;负责对验证全过程的实施监控。负责验证的协调工作,以保证本验证方案规定项目的顺利实施。 </item>
+        <item>3</item>
+        <item>储运部</item>
+        <item>经理</item>
+        <item>参加会签验证方案、验证实施和验证纠偏。配合验证现场工作。</item>
+        <item>2</item>
+        <item>设备管理部</item>
+        <item>经理</item>
+        <item>参加会签验证方案、验证实施和验证纠偏，负责相关设施设备的使用与操作。</item>
+    </string-array>
+    <string-array name="text_table_two">
+        <item>姓名</item>
+        <item>所在部门</item>
+        <item>岗位</item>
+        <item>职责</item>
+        <item>3</item>
+        <item>北京志翔领驭咨询有限公司</item>
+        <item>验证工程师</item>
+        <item>负责现场验证技术支持</item>
+        <item>1</item>
+        <item>质量</item>
+        <item>质管员</item>
+        <item>负责验证计划、方案、验证报告的起草，验证实施的协调,验证档案的归档 </item>
+        <item>3</item>
+        <item>管理部</item>
+        <item>养护员</item>
+        <item>按照验证方案进行具体实施和数据的收集，负责冷库的清洁处理,配合好验证的各项工作</item>
+        <item>2</item>
+        <item>储运部</item>
+        <item>管理员</item>
+        <item>按照验证方案进行具体实施和数据的收集，负责冷库的清洁处理,配合好验证的各项工作</item>
+    </string-array>
+
+</resources>

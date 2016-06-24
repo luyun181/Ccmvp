@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mingjia.ccvmp.activity.InfoActivity"
+    tools:showIn="@layout/activity_info">
+    <ImageView
+        android:layout_marginTop="75dp"
+        android:id="@+id/iv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/left"/>
+    <LinearLayout
+        android:layout_toEndOf="@+id/iv_show"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                style="@style/text_style"
+                android:id="@+id/con_name"
+                android:drawableLeft="@mipmap/user"
+                android:text="企业名称"
+                />
+            <TextView
+                android:id="@+id/tv_con_name"
+               style="@style/text_style1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/con_id"
+                style="@style/text_style"
+                android:drawableLeft="@mipmap/qyid"
+                android:text="企业  I D"
+                />
+
+            <TextView
+                android:id="@+id/tv_con_id"
+                style="@style/text_style1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/pro_name"
+                style="@style/text_style"
+                android:drawableLeft="@mipmap/xmmc"
+                android:text="项目名称" />
+
+            <TextView
+                android:id="@+id/tv_pro_name"
+                style="@style/text_style1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/org_type"
+                style="@style/text_style"
+                android:drawableLeft="@mipmap/yzlx"
+                android:text="验证类型" />
+
+            <Spinner
+                android:id="@+id/ed_org_type"
+                style="@style/text_style1"
+                android:entries="@array/ory_tpye" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/org_basis"
+                style="@style/text_style"
+                android:gravity="center_horizontal"
+                android:drawableLeft="@mipmap/yzyj"
+                android:text="验证依据" />
+
+            <Spinner
+                android:id="@+id/ed_org_basis"
+                style="@style/text_style1"
+                android:entries="@array/ory_provic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="486dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/org_standard"
+                style="@style/text_style"
+                android:drawableLeft="@mipmap/yzbz"
+                android:text="验证标准" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:paddingLeft="50dp"
+                android:text="温度为" />
+
+            <EditText
+                android:id="@+id/ed_temper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:hint="0-10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="℃" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_modify"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@mipmap/button"
+                android:text="修改"/>
+
+            <Button
+                android:id="@+id/btn_compl"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@mipmap/button"
+                android:text="保存"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
